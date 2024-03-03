@@ -4,9 +4,7 @@ import linkdien from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import twitter from "../assets/twitter.png";
 
-
 const Footer = () => {
-
   return (
     <>
       <div className="footer">
@@ -29,7 +27,7 @@ const Footer = () => {
             <a href="https://github.com/aryanvar">
               <img src={github} alt="" />
             </a>
-            <a href="https://www.instagram.com/aryanvarma/">
+            <a href="https://twitter.com/aryan80944">
               <img src={twitter} alt="" />
             </a>
           </div>
