@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 const ContactMe = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 1500,
     });
   }, []);
   const [formData, setFormData] = useState({
