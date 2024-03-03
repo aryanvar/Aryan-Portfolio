@@ -21,7 +21,7 @@ const About = () => {
       <div className="AboutMeMainDiv">
         <div
           className="AboutMeInBrief"
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
         >

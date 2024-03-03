@@ -85,7 +85,6 @@
         background-color: #333;
         color: #fff;
         display: flex;
-        /* Added this line */
         flex-direction: column;
         justify-content: center;
         align-items: center;
