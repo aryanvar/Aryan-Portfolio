@@ -1,0 +1,69 @@
+.home {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../assets/common-bg.svg);
+    height: 70vh;
+    width: 96.85%;
+
+}
+
+.homePosition {
+    justify-content: center;
+    padding-top: 110px;
+}
+
+.name h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.shortDescription {
+    font-size: 24px;
+    color: #666;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.projectButton button {
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #7843E9 !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.projectButton button:hover {
+    background-color: #7843E9;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .home {
+        padding: 30px 10px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .name h1 {
+        font-size: 35px;
+    }
+
+    .shortDescription {
+        font-size: 18px;
+        line-height: 1.6rem;
+    }
+
+    .projectButton button {
+        padding: 15px 40px;
+        font-size: 16px;
+    }
+}

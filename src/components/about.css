@@ -1,0 +1,159 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fafafa;
+}
+
+.AboutMeMainDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    padding-top: 4rem;
+}
+
+.AboutMe {
+    margin-bottom: 50px;
+    text-align: center;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.AboutMeInBrief {
+    width: 40vw;
+}
+
+.AboutMeSkills {
+    width: 40vw;
+    text-align: left;
+    height: 29vw;
+    padding-left: 5rem;
+}
+
+.AboutMe h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.AboutMe p,
+.AboutMeInBrief p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.AboutMeInBrief h2,
+.AboutMeSkills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.ContactButton button {
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #7843e9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ContactButton button:hover {
+    background-color: #0056b3;
+}
+
+.skills__skill {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 8px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 1024px) {
+    .AboutMeMainDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutMeInBrief {
+        width: 80vw;
+    }
+
+    .AboutMe,
+    .AboutMeSkills {
+        width: 80vw;
+        max-width: 100vw;
+
+    }
+
+    .AboutMeSkills {
+        padding-left: 0;
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .About {
+        padding: 30px 10px;
+    }
+
+    .AboutMeMainDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutMe,
+    .AboutMeSkills {
+        width: 80vw;
+        max-width: 100vw;
+        margin-bottom: 30px;
+        /* Added */
+    }
+
+    .AboutMeSkills {
+        padding-left: 0;
+        text-align: justify;
+        padding-top: 3rem;
+    }
+
+    .AboutMe h1 {
+        font-size: 28px;
+    }
+
+    .AboutMe p,
+    .AboutMeInBrief p {
+        font-size: 16px;
+    }
+
+    .AboutMeInBrief h2,
+    .AboutMeSkills h2 {
+        font-size: 20px;
+    }
+
+    .ContactButton button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .skills__skill {
+        padding: 6px 12px;
+        margin: 6px;
+        font-size: 14px;
+    }
+}
