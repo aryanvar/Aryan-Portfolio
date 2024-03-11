@@ -38,10 +38,11 @@ const Project = () => {
         <div className="githubLink">
           <h2>Card Adder</h2>
           <p>
-            Dopefolio is a successful Open-Source project that I created which
-            have been featured on some of the biggest tech sites like
-            CSS-Tricks, Hostinger, etc & used by thousands of developers
-            globally
+            Card Adder is a dynamic website developed using React.js, offering
+            users the ability to manage cards effortlessly. With intuitive
+            features for adding, deleting, editing, and viewing cards.Leveraging
+            the power of React.js, the website ensures a responsive and
+            interactive user experience.
           </p>
           <div className="githubButton">
             <a
@@ -73,10 +74,10 @@ const Project = () => {
         <div className="githubLink">
           <h2>Ecommerce Website</h2>
           <p>
-            Dopefolio is a successful Open-Source project that I created which
-            have been featured on some of the biggest tech sites like
-            CSS-Tricks, Hostinger, etc & used by thousands of developers
-            globally
+            After mastering new technologies, I designed and developed an
+            eCommerce website UI using jQuery. This frontend platform showcases
+            my proficiency in web development, highlighting my ability to
+            implement innovative solutions and create engaging user experiences
           </p>
           <div className="githubButton">
             <a
@@ -108,10 +109,10 @@ const Project = () => {
         <div className="githubLink">
           <h2>Github User Finder</h2>
           <p>
-            Dopefolio is a successful Open-Source project that I created which
-            have been featured on some of the biggest tech sites like
-            CSS-Tricks, Hostinger, etc & used by thousands of developers
-            globally
+            GitHub User Finder offers a convenient way to explore vital aspects
+            of your GitHub account. Leveraging the GitHub user API, it
+            seamlessly retrieves and presents data associated with a specified
+            username, repositories, and other key metrics.
           </p>
           <div className="githubButton">
             <a
@@ -143,10 +144,9 @@ const Project = () => {
         <div className="githubLink  ">
           <h2>Finance Ui</h2>
           <p>
-            Dopefolio is a successful Open-Source project that I created which
-            have been featured on some of the biggest tech sites like
-            CSS-Tricks, Hostinger, etc & used by thousands of developers
-            globally
+            Crafted with the Angular-Ionic framework, this is a cutting-edge
+            progressive web application (PWA) that mirrors the sleek interface
+            of a finance management platform.
           </p>
           <div className="githubButton">
             <a
