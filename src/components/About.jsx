@@ -60,7 +60,7 @@ const About = () => {
           <div className="AboutMeSkills_div">
             <div className="skills__skill">HTML5</div>
             <div className="skills__skill">CSS3</div>
-            <div className="skills__skill">Bootstrape</div>
+            <div className="skills__skill">Bootstrap</div>
             <div className="skills__skill">Tailwind CSS</div>
             <div className="skills__skill">JavaScript</div>
             <div className="skills__skill">jQuery</div>
