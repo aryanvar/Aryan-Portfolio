@@ -50,7 +50,11 @@ const ContactMe = () => {
       </p>
 
       <div className="ContactMe_Form">
-        <form onSubmit={handleSubmit}>
+        <form
+          onSubmit={handleSubmit}
+          action="https://formspree.io/f/xkndzada"
+          method="POST"
+        >
           <div className="formElementName">
             <label htmlFor="name">Name:</label>
             <input
