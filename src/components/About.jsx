@@ -40,7 +40,7 @@ const About = () => {
           </p>
           <div className="ContactButton">
             <a
-              href="https://docs.google.com/document/d/1NRW2faPTsGIzewoGYpprc1GHjMMASlmD/edit?usp=drive_link&ouid=115952694922252308106&rtpof=true&sd=true"
+              href="https://drive.google.com/file/d/1PstsscI6-R1TU97UXYocjfW0O3AlDlH4/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               download={"Resume_AryanVarma.docs"}
